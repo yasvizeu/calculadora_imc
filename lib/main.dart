@@ -66,9 +66,15 @@ class _HomeState extends State<Home> {
             ),
             ), 
 
-            ElevatedButton(onPressed: null, 
-            child: Text('Calcular',
-            style: TextStyle(color: Colors.white, fontSize: 50)),)   
+            SizedBox(
+              height: 50.0,
+              child: ElevatedButton(onPressed: (){},
+              style: ElevatedButton.styleFrom(backgroundColor: Colors.purple,),
+              child: Text('Calcular',
+              style: TextStyle(color: Colors.white, fontSize: 35),)
+              ), 
+        
+            ), 
         ],
       
       )
