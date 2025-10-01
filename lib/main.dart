@@ -74,7 +74,12 @@ class _HomeState extends State<Home> {
               style: TextStyle(color: Colors.white, fontSize: 35),)
               ), 
         
-            ), 
+            ),
+
+            Text('Info: ',
+              style: TextStyle(color: Colors.purple, fontSize: 25.0)),
+
+            
         ],
       
       )
