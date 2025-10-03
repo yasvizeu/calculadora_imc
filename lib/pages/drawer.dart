@@ -13,7 +13,13 @@ class Menu extends StatelessWidget {
           children: [
             DrawerHeader(
               decoration: BoxDecoration(
-                color: Color.fromARGB(255, 72, 0, 85),
+                // color: Color.fromARGB(255, 72, 0, 85),
+                image: DecorationImage(
+                  image: AssetImage(
+                  'images/exercicio.jpg',
+                ),
+                fit: BoxFit.cover,
+                ),
               ),
             child: Text('Menu',
             style: TextStyle(
