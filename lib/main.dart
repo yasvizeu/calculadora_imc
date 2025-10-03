@@ -179,14 +179,14 @@ class _HomeState extends State<Home> {
                 ),
               ),
 
-              SizedBox(height: 60.0),
+              SizedBox(height: 80.0),
 
               DefaultTextStyle(
                 style: const TextStyle(color: Color.fromARGB(255, 72, 0, 85), fontSize: 40.0, fontFamily: 'Horizon'),
                 child: AnimatedTextKit(
                   animatedTexts: [
                     RotateAnimatedText('INCRÍVEL'),
-                    RotateAnimatedText('OTIMISTA'),
+                    RotateAnimatedText('OTIMISMO'),
                     RotateAnimatedText('VAMO LÁ'),
                   ],
                 ),
